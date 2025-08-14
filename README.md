@@ -17,6 +17,7 @@ python cinematic_adaptive_golden.py                   # outputs: AdaptiveGolden_
 * `inspiral_gwstyle_phi_a.py`, `inspiral_precessing_phi_a.py` — core phases
 * `ringdown_multimode.py`, `ringdown_lensing.py` — ringdown + correlation
 * `stochastic_hybrid_phi_a.py` — hybrid “protein–GW” noise analog
+* `delta_fingerprint.py` — δ-fingerprint classifier for time-series steering vs chaos
 
 > Focus metric: `1 / std(y_cross at x=0)` from a fan of rays.
 > Heuristic: **ϕ_a < 1.4** often flags bifurcations (caustic snaps).
